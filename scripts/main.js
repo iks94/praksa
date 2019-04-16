@@ -1,3 +1,13 @@
+const spinner = document.getElementById("spinner");
+
+function load() {
+    spinner.style.display = "none";
+}
+
+setTimeout(load,1500);
+
+
+
 const slider = document.getElementById("slider");
 const first = document.getElementById("prva");
 const second = document.getElementById("druga");
