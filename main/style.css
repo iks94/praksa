@@ -138,6 +138,7 @@ body {
         position: fixed;
         display: block;
         text-align: center;
+        z-index: 99;
     }
     
     .title {
@@ -438,6 +439,7 @@ body {
     height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 99;
 }
 
 .title {
